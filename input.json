@@ -1,0 +1,39 @@
+{
+    "alphabet": [
+        "a",
+        "b"
+    ],
+    "state": [
+        "q0",
+        "q1",
+        "q2",
+        "q3"
+    ],
+    "initialState": "q0",
+    "finalState": [
+        "q2",
+        "q3"
+    ],
+    "transitions": [
+        {
+            "init": "q0",
+            "alph": "a",
+            "end": "q1"
+        },
+        {
+            "init": "q0",
+            "alph": "b",
+            "end": "q2"
+        },
+        {
+            "init": "q1",
+            "alph": "b",
+            "end": "q3"
+        },
+        {
+            "init": "q2",
+            "alph": "b",
+            "end": "q2"
+        }
+    ]
+}
