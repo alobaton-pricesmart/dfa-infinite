@@ -7,5 +7,6 @@ Decide if a Deterministic Finite Automata is infinite or finite.
 In order to start the use:
 
 ```bash
-$ go run main.go
+$ go build cmd/dfa/main.go
+$ ./main input.json
 ```
